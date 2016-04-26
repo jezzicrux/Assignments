@@ -20,4 +20,5 @@ def main():
                 print("Congratulation! You won. Thanks for playing.")
             elif counter==3 and x!=guess:
                 print("Too many guesses. Please play again.")
+
 main()
