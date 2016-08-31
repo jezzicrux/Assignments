@@ -4,10 +4,11 @@ def main():
     while(everythingValid==True):
         try:
             the_program_correct()
+            everythingValid = False
         except:
             print("Invalid Input: Please try again")
-            everythingValid=True
-        break
+            everythingValid=False
+
 def the_program_correct():
     A=int(input("What is the value of A? "))
     B = int(input("What is the value of B? "))
