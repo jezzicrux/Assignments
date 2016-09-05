@@ -11,8 +11,8 @@ def main():
 
 def the_program_correct():
     A=int(input("What is the value of A? "))
-    B = int(input("What is the value of B? "))
-    C = int(input("What is the value of C? "))
+    B=int(input("What is the value of B? "))
+    C=int(input("What is the value of C? "))
     Xvalue = int(input("What is the value of X? "))
     totalvalue=((A*(Xvalue**2))+(B*Xvalue)+(C))
     print("The following quadratic was entered: ",end="")
