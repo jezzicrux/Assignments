@@ -7,7 +7,6 @@
         print (numlist,"Prime number")'''
 
 '''Finding prime numbers from 2-100 with while loop'''
-
 a=2
 while a<=100:
     if (a/2 >1 and a % 2 == 0):
